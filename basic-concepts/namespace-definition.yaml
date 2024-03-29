@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev
+
+  # kubectl config set-context $(kubectl conifg current-context) --namespace=dev
+  #lembrar kubens
